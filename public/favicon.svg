@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <!-- Radial Sphere Gradients -->
+    <radialGradient id="favGoldSphere" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="20%" stop-color="#FEF08A" />
+      <stop offset="50%" stop-color="#FBBF24" />
+      <stop offset="80%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </radialGradient>
+
+    <!-- Blue Ring Gradients -->
+    <linearGradient id="favBlueRing" x1="120" y1="80" x2="420" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="40%" stop-color="#0038A8" />
+      <stop offset="100%" stop-color="#001654" />
+    </linearGradient>
+
+    <linearGradient id="favBlueLight" x1="160" y1="100" x2="380" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#002277" />
+    </linearGradient>
+
+    <!-- Golden Arrow Gradients -->
+    <linearGradient id="favGoldArrow" x1="370" y1="130" x2="450" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="50%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <linearGradient id="favGoldRibbon" x1="100" y1="360" x2="420" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="60%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#FEF08A" />
+    </linearGradient>
+
+    <radialGradient id="favCyanOrb" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#BAE6FD" />
+      <stop offset="40%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </radialGradient>
+
+    <radialGradient id="favGoldOrb" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="40%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#B45309" />
+    </radialGradient>
+  </defs>
+
+  <!-- BACK BLUE ORBITAL WING -->
+  <path
+    d="M 120 310 C 80 250 85 175 140 120 C 195 65 290 60 370 115 C 385 125 365 140 330 135 C 270 125 195 135 155 180 C 120 220 120 270 150 315 Z"
+    fill="url(#favBlueRing)"
+  />
+
+  <!-- UPPER ARCH TOP-RIGHT CREST SWOOSH -->
+  <path
+    d="M 170 135 C 240 85 340 90 380 140 C 370 142 350 142 320 140 C 275 138 215 152 175 185 C 160 170 162 145 170 135 Z"
+    fill="url(#favBlueLight)"
+  />
+
+  <!-- MAIN FOREGROUND BLUE ORBITAL RING -->
+  <path
+    d="M 75 305 C 50 350 70 395 130 425 C 205 460 325 445 410 380 C 475 330 485 260 445 200 C 425 170 395 180 390 205 C 420 250 410 305 360 350 C 295 405 200 415 140 385 C 95 360 85 330 95 300 Z"
+    fill="url(#favBlueRing)"
+  />
+
+  <!-- Outer rim highlight -->
+  <path
+    d="M 100 325 C 85 355 105 385 145 405 C 210 435 315 425 385 370 C 430 335 445 285 435 240 C 428 255 418 275 395 305 C 340 365 245 390 170 375 C 130 365 110 345 100 325 Z"
+    fill="url(#favBlueLight)"
+  />
+
+  <!-- Inner Blue Crescent framing the Central Sphere -->
+  <path
+    d="M 140 270 C 135 210 170 155 240 135 C 310 115 385 140 405 195 C 415 220 395 245 370 230 C 350 180 290 155 235 175 C 185 195 160 240 170 285 C 150 290 142 282 140 270 Z"
+    fill="#001858"
+  />
+
+  <!-- GOLDEN TRACK & ASCENDING ARROW -->
+  <path
+    d="M 95 345 C 80 375 110 400 150 405 C 240 415 340 365 395 285 C 430 235 430 185 390 155 C 365 135 340 175 345 195 C 375 220 380 255 350 295 C 305 355 220 385 155 375 C 120 370 100 355 95 345 Z"
+    fill="url(#favGoldRibbon)"
+  />
+
+  <!-- Golden Ramp -->
+  <path
+    d="M 315 210 C 345 175 370 130 405 95 L 425 125 C 390 155 365 200 335 235 Z"
+    fill="url(#favGoldRibbon)"
+  />
+
+  <!-- 3D Arrowhead -->
+  <path
+    d="M 370 100 L 455 75 L 435 145 L 415 125 Z"
+    fill="url(#favGoldArrow)"
+  />
+  <path
+    d="M 455 75 L 445 150 L 415 125 Z"
+    fill="#D97706"
+  />
+
+  <!-- CENTRAL SPHERE -->
+  <circle cx="256" cy="256" r="76" fill="url(#favGoldSphere)" />
+  <ellipse cx="230" cy="225" rx="34" ry="22" transform="rotate(-30 230 225)" fill="#FFFFFF" opacity="0.6" />
+  <ellipse cx="222" cy="216" rx="14" ry="8" transform="rotate(-30 222 216)" fill="#FFFFFF" opacity="0.9" />
+
+  <!-- ORBITAL NODES -->
+  <!-- Cyan Orb -->
+  <circle cx="180" cy="160" r="19" fill="url(#favCyanOrb)" />
+  <circle cx="176" cy="156" r="6" fill="#FFFFFF" opacity="0.8" />
+
+  <!-- Gold Orb -->
+  <circle cx="92" cy="342" r="21" fill="url(#favGoldOrb)" />
+  <circle cx="88" cy="338" r="7" fill="#FFFFFF" opacity="0.8" />
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Rota ENEM",
+  "description": "Método prático de preparação para o ENEM baseado em Entender, Aplicar, Corrigir e Revisar. Acesso completo por R$ 19,90.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
