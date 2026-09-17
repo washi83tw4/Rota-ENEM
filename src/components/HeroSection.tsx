@@ -63,10 +63,10 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-base sm:text-lg md:text-xl text-[#444653] font-normal leading-relaxed max-w-3xl mb-8 sm:mb-10"
         >
-          Aprenda como pensar nas questões, eliminar alternativas absurdas e destravar sua redação do zero. Um caminho claro para <strong className="text-[#131b2e] font-semibold">estudar, praticar com exercícios comentados, corrigir erros e revisar no PDF</strong> sem se perder em montanhas de teoria. <span className="text-[#855300] font-semibold">Tudo isso por apenas R$ 19,90.</span>
+          Aprenda como pensar nas questões, eliminar alternativas absurdas e destravar sua redação do zero. Um caminho claro com <strong className="text-[#131b2e] font-semibold">guias estruturados, treinos práticos comentados, correção de erros e plano de revisão</strong> sem se perder em montanhas de teoria. <span className="text-[#855300] font-semibold">Tudo isso por apenas R$ 19,90.</span>
         </motion.p>
 
-        {/* Showcase dos Materiais Práticos em PDF e Cadernos de Questões (Substitui o antigo player de vídeo) */}
+        {/* Showcase dos Materiais Práticos, Guias e Cadernos de Treino */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -81,16 +81,16 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
               </span>
               <div>
                 <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#855300] block">
-                  MATERIAL 100% PRÁTICO EM PDF
+                  MÉTODO COMPLETO DE ESTUDO & TREINO
                 </span>
                 <span className="text-sm sm:text-base font-extrabold text-[#131b2e]">
-                  Direto ao ponto: Exercícios, Guias e Análises Comentadas
+                  Direto ao ponto: Guias, Cadernos de Exercícios e Planos de Ação
                 </span>
               </div>
             </div>
             <span className="px-3 py-1 rounded-full bg-emerald-50 text-[#00563a] font-extrabold text-xs flex items-center gap-1.5 border border-emerald-200">
               <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
-              Download Imediato
+              Acesso Imediato
             </span>
           </div>
 
@@ -157,10 +157,10 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
           <div className="p-3 bg-[#eaedff]/60 rounded-xl border border-[#00288e]/15 flex flex-wrap items-center justify-between gap-2 text-xs">
             <span className="font-extrabold text-[#00288e] flex items-center gap-1.5">
               <Sparkles className="w-3.5 h-3.5 text-[#fea619]" />
-              Acesso em PDF completo: leia no celular, tablet ou imprima se preferir
+              Material de apoio digital completo: acesse no celular, tablet ou imprima se preferir
             </span>
             <span className="font-bold text-[#444653]">
-              Sem aulas longas • Direto na prática
+              Sem enrolação • Foco em aplicação prática
             </span>
           </div>
         </motion.div>

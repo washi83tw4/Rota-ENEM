@@ -13,7 +13,7 @@ export const TestimonialsSection: React.FC = () => {
             <GraduationCap className="w-3.5 h-3.5 text-[#00288e]" /> HISTÓRIAS REAIS
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#131b2e] tracking-tight mb-4">
-            Quem Usou o ENEM Turbo Já Garantiu a Vaga Federal
+            Quem Usou o Rota ENEM Já Garantiu a Vaga Federal
           </h2>
           <p className="text-sm sm:text-base text-[#444653] leading-relaxed">
             Mais de 14.800 estudantes já passaram pelo método. Veja o depoimento espontâneo de quem conquistou a aprovação dos sonhos:

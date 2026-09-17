@@ -138,21 +138,21 @@ export const FAQ_DATA: FaqItem[] = [
   },
   {
     id: 'faq-4',
-    question: 'Por que o método é diferente de simplesmente ler apostilas ou PDFs soltos?',
+    question: 'Por que o método é diferente de simplesmente ler apostilas ou materiais soltos?',
     answer:
-      'Porque o aluno não precisa de mais conteúdo para acumular; precisa de método. O foco está no ciclo ENTENDER → APLICAR → CORRIGIR → REVISAR. Você aprende como pensar nas questões, como construir a redação do zero e como transformar seus erros em um plano prático de evolução.',
+      'Porque o aluno não precisa de mais volume de leitura para acumular; precisa de um método com treino prático. O foco está no ciclo ENTENDER → APLICAR → CORRIGIR → REVISAR. Você recebe um caminho estruturado com guias de raciocínio, cadernos de exercícios comentados e planos de revisão para transformar seus erros em pontuação real.',
   },
   {
     id: 'faq-5',
-    question: 'O material tem aulas em vídeo ou é em PDF?',
+    question: 'Como é o formato de estudo do material? Tem aulas em vídeo?',
     answer:
-      'O método é 100% focado na prática: são cadernos de exercícios comentados, guias estruturados e materiais completos em PDF. Não tem aulas em vídeo longas ou cansativas, justamente para você não perder tempo assistindo teoria passiva e ir direto para a resolução de questões e correção dos erros.',
+      'O método é 100% focado na sua prática ativa: são guias estruturados, cadernos de treino comentados e materiais de apoio objetivos. Não há aulas em vídeo longas ou teóricas que consomem horas do seu dia; o objetivo é você ir direto para a resolução de questões, entender o padrão da prova e aplicar o método no seu próprio ritmo.',
   },
   {
     id: 'faq-6',
     question: 'Posso acessar pelo celular ou preciso de computador?',
     answer:
-      'Você pode acessar pelo celular, tablet ou computador quando e onde quiser. Os PDFs e guias foram otimizados para leitura dinâmica e rápida aplicação em qualquer dispositivo, ou para imprimir se você preferir estudar no papel.',
+      'Você pode acessar pelo celular, tablet ou computador quando e onde quiser. Todos os guias e materiais de treino foram otimizados para leitura dinâmica e rápida aplicação digital em qualquer dispositivo, ou para imprimir caso prefira treinar diretamente no papel.',
   },
 ];
 

@@ -9,15 +9,15 @@ interface OfferSectionProps {
 
 export const OfferSection: React.FC<OfferSectionProps> = () => {
   const deliverables = [
-    'Material 100% em PDF: Prático, direto ao ponto para ler no celular, tablet ou imprimir',
-    'Interpretação & Resolução: Aprenda a pensar na questão, reconhecer evidências no comando e eliminar alternativas absurdas',
-    'Método Completo de Redação: Saia do tema até a redação pronta com tese, argumentos, repertório e intervenção',
-    'Checklist Anti-Erros de Redação: Saiba exatamente onde os corretores tiram pontos e blinde seu texto',
-    'Matemática Aplicada ao ENEM: Reconheça qual cálculo usar antes de sair aplicando fórmulas na situação errada',
-    'Linguagens & Humanas por Evidências: Entenda o que o texto base realmente pede sem cair em pegadinhas',
-    'Ciências da Natureza com Foco em Raciocínio: Conecte conceitos de Biologia, Química e Física a problemas do cotidiano',
-    'Caderno de Exercícios Práticos Comentados: Pratique o ciclo, descubra por que errou e transforme cada erro em evolução',
-    'Plano de Revisão & Reta Final: Chegue à semana da prova sabendo o que revisar e como administrar as 5 horas de exame',
+    'Material de Estudo Digital: Prático e direto ao ponto para estudar no celular, tablet ou imprimir',
+    'Treino de Interpretação & Resolução: Aprenda a pensar na questão, reconhecer evidências no comando e eliminar alternativas absurdas',
+    'Guia Completo de Redação Nota 900+: Saia do tema até o texto pronto com tese, argumentos, repertório e proposta de intervenção',
+    'Checklist Anti-Erros de Corretores: Saiba exatamente onde os avaliadores tiram pontos e blinde seu texto',
+    'Treino de Matemática para o ENEM: Reconheça qual cálculo usar antes de sair aplicando fórmulas na situação errada',
+    'Linguagens & Humanas por Evidências: Entenda o que o texto base realmente pede sem cair em pegadinhas subjetivas',
+    'Ciências da Natureza com Raciocínio Prático: Conecte conceitos de Biologia, Química e Física a problemas do cotidiano',
+    'Caderno de Exercícios & Correção Comentada: Pratique o ciclo de questões, descubra por que errou e evolua rápido',
+    'Plano de Revisão e Dia da Prova: Chegue à reta final sabendo exatamente o que revisar e como administrar as 5 horas de exame',
   ];
 
   return (
@@ -53,7 +53,7 @@ export const OfferSection: React.FC<OfferSectionProps> = () => {
               <div className="flex items-center gap-2">
                 <span className="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></span>
                 <span className="text-xs font-black uppercase tracking-wider text-[#00288e]">
-                  MATERIAL 100% PRÁTICO EM PDF • EXERCÍCIOS & GUIAS
+                  MÉTODO COMPLETO • GUIAS, TREINOS & CADERNOS PRÁTICOS
                 </span>
               </div>
               <h3 className="text-2xl sm:text-3xl font-black text-[#131b2e]">
